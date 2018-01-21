@@ -5,7 +5,6 @@
   
  ## Stuff to be added/changed
  - Converted from French to English
- - Windows or Linux Server
  
  ## Stuff that is added/changed
  - Converted from CitizenMP(Deprecated) to FiveM
