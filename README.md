@@ -1,12 +1,14 @@
- # FiveM Roleplay Boilerplate
- 
- ### This is a boilerplate for FiveM Roleplay Server, it might help you to save a lot of time by skipping the development of the same boring stuff. 
+ # FiveM Freeroam/Roleplay
+ ###### Server-IP: FiveM.Legacy4You.net:30110
   
   <img src='http://image.noelshack.com/fichiers/2017/23/1496767575-previewgta-1.jpg' style='width: 50%; height:auto' alt='preview1'/>
   
-  ## Requirements
-  - MySQL or MariaDB
+ ## Stuff to be added/changed
+ - Converted from French to English
  - Windows or Linux Server
+ 
+ ## Stuff that is added/changed
+ - Converted from CitizenMP(Deprecated) to FiveM
  
  ## What's included ?
  - ID Card
@@ -36,14 +38,6 @@
  - HUD
  - Car health and speed
  - Custom cars (Audi, Police, Ferrari, ...)
-  
-  
-  ## How to install it ?
- -### 1. Import `install.sql` into your DBMS 
- -### 2. Change the database credentials in each server's lua files
- +### 1. Import `install.sql` into your DBMS (e.g. MySQL)
- +### 2. Changed the credentials of server files
- +In order to enable all the plugins you have to edit the server.lua files (or sometimes settings.lua) each in packages of the `resources/`directory. Add you database name, the username and the password.
   
   ## Usage (in game)
   `K` : Open your personnal menu
@@ -87,3 +81,5 @@
   - weashop
   - car skins
   
+  ## Credits
+  <a href="https://github.com/xchopin">xChopin</a> for the Deprecated version
